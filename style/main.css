@@ -1,0 +1,199 @@
+/* declaracao de variaveis que podem ser usadas */
+:root {
+    --amarelo:#c8d41bfb;
+    --preta:#141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+body {
+    background-color: var(--preta);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+  
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin-left: 5px;
+    color: var(--amarelo);
+    font-family: "Arial Black";
+    font-size:40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color:#AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color:#fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+h4 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* filmes principal*/
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0.50)100%), url('../img/gameofthrones.jpg');
+    height: 450px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.tolkien{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0.50)100%), url('../img/tolkien/tolkien_capa.jpg');
+    height: 450px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.tolkien .descricao {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.rrmartin{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0.50)100%), url('../img/rrmartin/rrmartin.png');
+    height: 450px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.rrmartin .descricao {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.vikings{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0.50)100%), url('../img/vikings/vikings_capa.jpg');
+    height: 450px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.vikings .descricao {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.thewitcher{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0.50)100%), url('../img/thewitcher/thewitcher_capa.jpg');
+    height: 450px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.thewitcher .descricao {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.barbaros{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0.50)100%), url('../img/barbaros/barbaros_capa.jpg');
+    height: 450px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.barbaros .descricao {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.titulo {
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover {
+    background-color:white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.filme-principal .container {
+    width: 60%;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes {
+    margin-top:5px;
+}
